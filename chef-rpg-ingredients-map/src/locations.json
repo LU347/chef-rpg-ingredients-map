@@ -304,6 +304,114 @@
         "y": 59,
         "label": "Raspberry",
         "type": "fruit"
+    },
+    {
+        "x": 73,
+        "y": 70,
+        "label": "Red Apple",
+        "type": "fruit"
+    },
+    {
+        "x": 70,
+        "y": 73,
+        "label": "Raspberry",
+        "type": "fruit"
+    },
+    {
+        "x": 72,
+        "y": 69.5,
+        "label": "Asparagus",
+        "type": "vegetable"
+    },
+    {
+        "x": 79,
+        "y": 79.5,
+        "label": "Mushroom",
+        "type": "vegetable"
+    },
+    {
+        "x": 85,
+        "y": 83,
+        "label": "Clam",
+        "type": "seafood"
+    },
+    {
+        "x": 86,
+        "y": 79,
+        "label": "Clam",
+        "type": "seafood"
+    },
+    {
+        "x": 87,
+        "y": 70,
+        "label": "Wild Carrot",
+        "type": "vegetable"
+    },
+    {
+        "x": 84,
+        "y": 65,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 86,
+        "y": 63,
+        "label": "Lettuce",
+        "type": "vegetable"
+    },
+    {
+        "x": 86,
+        "y": 67,
+        "label": "Unknown",
+        "type": "fruit"
+    },
+    {
+        "x": 78,
+        "y": 58,
+        "label": "Mint Leaf",
+        "type": "herb"
+    },
+    {
+        "x": 77.5,
+        "y": 61,
+        "label": "Spinach",
+        "type": "vegetable"
+    },
+    {
+        "x": 78,
+        "y": 73,
+        "label": "Mint Leaf",
+        "type": "herb"
+    },
+    {
+        "x": 82,
+        "y": 69,
+        "label": "Mint Leaf",
+        "type": "herb"
+    },
+    {
+        "x": 71.5,
+        "y": 56,
+        "label": "Sorghum",
+        "type": "grain"
+    },
+    {
+        "x": 72.5,
+        "y": 53,
+        "label": "Sorghum",
+        "type": "grain"
+    },
+    {
+        "x": 66.5,
+        "y": 52.5,
+        "label": "Sorghum",
+        "type": "grain"
+    },
+    {
+        "x": 63.5,
+        "y": 53,
+        "label": "Tea Leaves",
+        "type": "herb"
     }
     
 

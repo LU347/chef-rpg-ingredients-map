@@ -24,6 +24,8 @@ const Map = () => {
                 return '#d0fc8d';
             case 'grain':
                 return '#fce38d';
+            case 'herb':
+                return '#8dfc95';
             default:
                 return 'none';
         }
