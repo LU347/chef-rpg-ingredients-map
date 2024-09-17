@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import locations from './locations.json';
-import icon from './assets/map-icons/map-pin.svg';
 
 const Map = () => {
     const [markerLocations] = useState(locations);
