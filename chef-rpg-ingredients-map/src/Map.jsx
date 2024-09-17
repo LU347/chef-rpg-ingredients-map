@@ -37,7 +37,7 @@ const Map = () => {
     useEffect(() => {
         if (map) {
             markerLocations.forEach((location) => {
-                const marker = L.marker([location.x, location.y], {
+                const marker = L.marker([location.y, location.x], {
                     icon: L.divIcon({
                         className: 'custom-marker',
                         html: `
@@ -69,8 +69,6 @@ const Map = () => {
                 return '#57ff6a'; // green
             case 'seafood':
                 return '#619efa'; // blue
-            case 'honey':
-                return '#f9ff57'; // yellow
             case 'store':
                 return 'red'; // red
             case 'grass':
@@ -79,6 +77,10 @@ const Map = () => {
                 return '#fce38d';
             case 'herb':
                 return '#8dfc95';
+            case 'animal':
+                return 'orange'; //temp color
+            case 'animal-drop':
+                return 'yellow';
             default:
                 return 'none';
         }
