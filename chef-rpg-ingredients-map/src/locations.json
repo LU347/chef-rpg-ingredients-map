@@ -196,5 +196,77 @@
         "y": 290,
         "label": "Red Apple",
         "type": "fruit"
+    },
+    {
+        "x": 1020,
+        "y": 320,
+        "label": "Raspberry",
+        "type": "fruit"
+    },
+    {
+        "x": 1150,
+        "y": 320,
+        "label": "Town Hall",
+        "type": "store"
+    },
+    {
+        "x": 1175,
+        "y": 300,
+        "label": "Chop",
+        "type": "store"
+    },
+    {
+        "x": 1225,
+        "y": 299,
+        "label": "Greenstalk",
+        "type": "store"
+    },
+    {
+        "x": 1245,
+        "y": 299,
+        "label": "Nabiha's Berries",
+        "type": "store"
+    },
+    {
+        "x": 1260,
+        "y": 260,
+        "label": "Bea's Bar",
+        "type": "store"
+    },
+    {
+        "x": 1270,
+        "y": 220,
+        "label": "Bits & Pieces",
+        "type": "store"
+    },
+    {
+        "x": 1200,
+        "y": 238,
+        "label": "La Galerie",
+        "type": "store"
+    },
+    {
+        "x": 1170,
+        "y": 225,
+        "label": "Hotel Rose",
+        "type": "store"
+    },
+    {
+        "x": 1170,
+        "y": 170,
+        "label": "Fish King",
+        "type": "store"
+    },
+    {
+        "x": 1110,
+        "y": 245,
+        "label": "Milk & Wheat",
+        "type": "store"
+    },
+    {
+        "x": 1050,
+        "y": 245,
+        "label": "Bibi Apartments",
+        "type": "store"
     }
 ]
