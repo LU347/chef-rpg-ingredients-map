@@ -40,6 +40,54 @@
         "y": 53,
         "label": "Elderberry",
         "type": "fruit"
+    },
+    {
+        "x": 33,
+        "y": 53,
+        "label": "Watercress",
+        "type": "vegetable"
+    },
+    {
+        "x": 31,
+        "y": 49,
+        "label": "Lettuce",
+        "type": "vegetable"
+    },
+    {
+        "x": 33,
+        "y": 60,
+        "label": "Asparagus",
+        "type": "vegetable"
+    },
+    {
+        "x": 21,
+        "y": 65,
+        "label": "Mushroom",
+        "type": "vegetable"
+    },
+    {
+        "x": 22,
+        "y": 69,
+        "label": "Wild Carrot",
+        "type": "vegetable"
+    },
+    {
+        "x": 22,
+        "y": 79,
+        "label": "Red Apple",
+        "type": "fruit"
+    },
+    {
+        "x": 58,
+        "y": 76,
+        "label": "Milk & Wheat",
+        "type": "store"
+    },
+    {
+        "x": 63,
+        "y": 76,
+        "label": "Le Galerie",
+        "type": "store"
     }
 
 ]

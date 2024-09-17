@@ -4,16 +4,9 @@ import icon from './assets/map-icons/map-pin.svg';
 
 const Map = () => {
     const [markerLocations] = useState(locations);
-    let [onHover, setHover] = useState(false);
 
     const handleMarkerClick = (location) => {
         alert(`Marker clicked at ${location.x}% width and ${location.y}% height`);
-    };
-
-    let handleMouseOver = () => {
-        if (!onHover) {
-
-        }
     };
     
     const getMarkerColor = (type) => {
@@ -33,7 +26,6 @@ const Map = () => {
         }
     }
 
-    //TODO: Marker Color should depend on type of item
     return (
         <div id="map-grid">
             { markerLocations.map((location, index) => (
