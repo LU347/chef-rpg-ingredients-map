@@ -3,6 +3,15 @@
 The goal of this repository is to make it easier for players to search for an ingredient. The map takes the full width and height of the screen. Each marker is hardcoded by an (x,y) position. I currently have the locations in a json file (src/locations.json).
 
 To add more locations: specify the x and y index, label, and marker type (vegetable, seafood, fruit, store).
+## Sample Location
+```json
+ {
+   "x": 50,
+   "y": 50,
+   "label": "sample"
+   "type": "store"
+ }
+```
 
 ## Tasks
 - [ ] Populate the map with markers
