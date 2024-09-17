@@ -48,15 +48,9 @@
         "type": "vegetable"
     },
     {
-        "x": 31,
-        "y": 49,
+        "x": 31.5,
+        "y": 46.5,
         "label": "Lettuce",
-        "type": "vegetable"
-    },
-    {
-        "x": 33,
-        "y": 60,
-        "label": "Asparagus",
         "type": "vegetable"
     },
     {
@@ -88,6 +82,169 @@
         "y": 76,
         "label": "Le Galerie",
         "type": "store"
+    },
+    {
+        "x": 45,
+        "y": 82,
+        "label": "Asparagus",
+        "type": "vegetable"
+    }, 
+    {
+        "x": 40,
+        "y": 68.5,
+        "label": "Chili",
+        "type": "fruit"
+    },
+    {
+        "x": 42,
+        "y": 69,
+        "label": "Raspberry",
+        "type": "fruit"
+    },
+    {
+        "x": 42.5,
+        "y": 70,
+        "label": "Red Apple",
+        "type": "fruit"
+    },
+    {
+        "x": 36,
+        "y": 69,
+        "label": "Sugarcane",
+        "type": "grass"
+    },
+    {
+        "x": 37,
+        "y": 60,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 37,
+        "y": 62,
+        "label": "Chili",
+        "type": "fruit"
+    },
+    {
+        "x": 33.5,
+        "y": 61,
+        "label": "Wild Carrot",
+        "type": "vegetable"
+    },
+    {
+        "x": 32,
+        "y": 61,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 28,
+        "y": 59,
+        "label": "Cranberry",
+        "type": "fruit"
+    },
+    {
+        "x": 28,
+        "y": 55,
+        "label": "Cranberry",
+        "type": "fruit"
+    },
+    {
+        "x": 28,
+        "y": 52,
+        "label": "Watercress",
+        "type": "vegetable"
+    },
+    {
+        "x": 26.2,
+        "y": 49,
+        "label": "Asparagus",
+        "type": "vegetable"
+    },
+    {
+        "x": 26,
+        "y": 47,
+        "label": "Cranberry",
+        "type": "fruit"
+    },
+    {
+        "x": 29,
+        "y": 47.5,
+        "label": "Wild Rice",
+        "type": "grain"
+    },
+    {
+        "x": 35,
+        "y": 46.5,
+        "label": "Chili",
+        "type": "fruit"
+    },
+    {
+        "x": 38,
+        "y": 45,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 39,
+        "y": 43,
+        "label": "Asparagus",
+        "type": "vegetable"
+    },
+    {
+        "x": 39.5,
+        "y": 43.25,
+        "label": "Wild Rice",
+        "type": "grain"
+    },
+    {
+        "x": 41.5,
+        "y": 43,
+        "label": "Mushroom",
+        "type": "vegetable"
+    },
+    {
+        "x": 40,
+        "y": 50,
+        "label": "Wild Rice",
+        "type": "grain"
+    },
+    {
+        "x": 40,
+        "y": 52,
+        "label": "Watercress",
+        "type": "vegetable"
+    },
+    {
+        "x": 43.5,
+        "y": 52.5,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 45,
+        "y": 54.5,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 47,
+        "y": 56.5,
+        "label": "Raspberry",
+        "type": "fruit"
+    },
+    {
+        "x": 44.5,
+        "y": 60,
+        "label": "Chili",
+        "type": "fruit"
+    },
+    {
+        "x": 48,
+        "y": 59,
+        "label": "Raspberry",
+        "type": "fruit"
     }
+    
 
 ]

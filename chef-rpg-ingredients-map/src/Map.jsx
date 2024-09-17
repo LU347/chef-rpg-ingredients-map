@@ -20,6 +20,10 @@ const Map = () => {
                 return '#f9ff57';                  //yellow
             case 'store':
                 return 'red'  //red
+            case 'grass':
+                return '#d0fc8d';
+            case 'grain':
+                return '#fce38d';
             default:
                 return 'none';
         }
