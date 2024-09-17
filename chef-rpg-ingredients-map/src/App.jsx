@@ -5,7 +5,6 @@ import './App.css'
 function App() {
   return (
     <>
-      <img className="chef-rpg-map" src={gameMap} alt="Map of ChefRPG"></img>
       <Map />
     </>
   )
