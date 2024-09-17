@@ -1,0 +1,19 @@
+/*TODO: sidebar should slide open and close */
+
+:root {
+    --button-color: #212121;
+    --bg-color: #141414;
+}
+
+.sidebar {
+    position: fixed;
+    top: 10%;
+    right: 0%;
+    transform: translateY(-50%);
+    background-color: var(--bg-color)
+}
+
+.sidebar button {
+    background-color: var(--button-color);
+    /*TODO: border on top/bottom left */
+}
