@@ -11,7 +11,7 @@ const Sidebar = () => {
     };
 
     return (
-<div className="sidebar">
+        <div className="sidebar">
             {!isOpen ? (
                 <button onClick={handleToggle}><img src={sidebarOpenIcon} alt="Open Sidebar"></img></button>
             ) : (

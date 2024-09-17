@@ -1,0 +1,45 @@
+[
+    {
+        "x": 35,
+        "y": 85,
+        "label": "Crab",
+        "type": "seafood"
+    },
+    {
+        "x": 17,
+        "y": 87,
+        "label": "Crab",
+        "type": "seafood"
+    },
+    {
+        "x": 83,
+        "y": 85,
+        "label": "Crab",
+        "type": "seafood"
+    },
+    {
+        "x": 30,
+        "y": 45,
+        "label": "Cranberry",
+        "type": "fruit"
+    },
+    {
+        "x": 20,
+        "y": 51,
+        "label": "Cranberry",
+        "type": "fruit"
+    },
+    {
+        "x": 15,
+        "y": 55,
+        "label": "Spinach",
+        "type": "vegetable"
+    },
+    {
+        "x": 18,
+        "y": 53,
+        "label": "Elderberry",
+        "type": "fruit"
+    }
+
+]
