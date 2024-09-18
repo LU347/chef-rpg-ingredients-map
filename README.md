@@ -17,7 +17,7 @@ To add more locations: specify the x and y index, label, and marker type (vegeta
 - [ ] Populate the map with markers
 - [ ] Show more details when user clicks on a marker
 - [ ] Side bar for map key or to toggle the visibility of markers (?)
-- [ ] New features (?)
+- [ ] Change map ingredients depending on the season
 
 ## How to Contribute
  1. Fork this repository
