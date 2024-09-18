@@ -354,6 +354,12 @@
         "type": "animal"
     },
     {
+        "x": 580,
+        "y": 500,
+        "label": "Elk",
+        "type": "animal"
+    },
+    {
         "x": 590,
         "y": 490,
         "label": "Pheasant",
@@ -369,6 +375,150 @@
         "x": 505,
         "y": 555,
         "label": "Asparagus",
+        "type": "vegetable"
+    },
+    {
+        "x": 520,
+        "y": 525,
+        "label": "Asparagus",
+        "type": "vegetable"
+    },
+    {
+        "x": 450,
+        "y": 540,
+        "label": "Cranberry",
+        "type": "fruit"
+    },
+    {
+        "x": 400,
+        "y": 500,
+        "label": "Mushroom",
+        "type": "vegetable"
+    },
+    {
+        "x": 400,
+        "y": 490,
+        "label": "Spinach",
+        "type": "vegetable"
+    },
+    {
+        "x": 420,
+        "y": 480,
+        "label": "Spinach",
+        "type": "vegetable"
+    },
+    {
+        "x": 414,
+        "y": 485,
+        "label": "Spinach",
+        "type": "vegetable"
+    },
+    {
+        "x": 350,
+        "y": 485,
+        "label": "Boar",
+        "type": "animal"
+    },
+    {
+        "x": 400,
+        "y": 455,
+        "label": "Honeycomb",
+        "type": "animal-drop"
+    },
+    {
+        "x": 405,
+        "y": 455,
+        "label": "Spinach",
+        "type": "vegetable"
+    },
+    {
+        "x": 402,
+        "y": 450,
+        "label": "Spinach",
+        "type": "vegetable"
+    },
+    {
+        "x": 310,
+        "y": 515,
+        "label": "Spinach",
+        "type": "vegetable"
+    },
+    {
+        "x": 315,
+        "y": 520,
+        "label": "Spinach",
+        "type": "vegetable"
+    },
+    {
+        "x": 317,
+        "y": 510,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 380,
+        "y": 510,
+        "label": "Cranberry",
+        "type": "fruit"
+    },
+    {
+        "x": 320,
+        "y": 515,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 330,
+        "y": 460,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 300,
+        "y": 490,
+        "label": "Spinach",
+        "type": "vegetable"
+    },
+    {
+        "x": 390,
+        "y": 465,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 385,
+        "y": 460,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 385,
+        "y": 450,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 350,
+        "y": 440,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 365,
+        "y": 430,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 360,
+        "y": 450,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 350,
+        "y": 440,
+        "label": "Spinach",
         "type": "vegetable"
     },
     {
@@ -510,10 +660,16 @@
         "type": "vegetable"
     },
     {
-        "x": 780,
-        "y": 330,
+        "x": 755,
+        "y": 320,
         "label": "Honeycomb",
         "type": "animal-drop"
+    },
+    {
+        "x": 745,
+        "y": 340,
+        "label": "Mint Leaf",
+        "type": "herb"
     },
     {
         "x": 1500,
