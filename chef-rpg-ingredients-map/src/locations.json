@@ -508,5 +508,143 @@
         "y": 475,
         "label": "Watercress",
         "type": "vegetable"
+    },
+    {
+        "x": 780,
+        "y": 330,
+        "label": "Honeycomb",
+        "type": "animal-drop"
+    },
+    {
+        "x": 1500,
+        "y": 215,
+        "label": "Mushroom",
+        "type": "vegetable"
+    },
+    {
+        "x": 1570,
+        "y": 215,
+        "label": "Clam",
+        "type": "seafood"
+    },
+    {
+        "x": 1570,
+        "y": 190,
+        "label": "Seaweed",
+        "type": "vegetable"
+    },
+    {
+        "x": 1620,
+        "y": 215,
+        "label": "Crab",
+        "type": "seafood"
+    },
+    {
+        "x": 1670,
+        "y": 320,
+        "label": "Wild Carrot",
+        "type": "vegetable"
+    },
+    {
+        "x": 1530,
+        "y": 320,
+        "label": "Pheasant",
+        "type": "animal"
+    },
+    {
+        "x": 1520,
+        "y": 400,
+        "label": "Red Apple",
+        "type": "fruit"
+    },
+    {
+        "x": 1480,
+        "y": 420,
+        "label": "Spinach",
+        "type": "vegetable"
+    },
+    {
+        "x": 1460,
+        "y": 425,
+        "label": "Mint Leaf",
+        "type": "herb"
+    },
+    {
+        "x": 1480,
+        "y": 435,
+        "label": "Mint Leaf",
+        "type": "herb"
+    },
+    {
+        "x": 1375,
+        "y": 510,
+        "label": "Sorghum",
+        "type": "grain"
+    },
+    {
+        "x": 1365,
+        "y": 510,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 1372,
+        "y": 519,
+        "label": "Raspberry",
+        "type": "fruit"
+    },
+    {
+        "x": 1360,
+        "y": 470,
+        "label": "Sorghum",
+        "type": "grain"
+    },
+    {
+        "x": 1280,
+        "y": 490,
+        "label": "Tea Leaves",
+        "type": "herb"
+    },
+    {
+        "x": 1290,
+        "y": 490,
+        "label": "Tea Leaves",
+        "type": "herb"
+    },
+    {
+        "x": 1220,
+        "y": 485,
+        "label": "Tea Leaves",
+        "type": "herb"
+    },
+    {
+        "x": 1215,
+        "y": 485,
+        "label": "Tea Leaves",
+        "type": "herb"
+    },
+    {
+        "x": 1260,
+        "y": 510,
+        "label": "Sorghum",
+        "type": "grain"
+    },
+    {
+        "x": 1235,
+        "y": 515,
+        "label": "Sorghum",
+        "type": "grain"
+    },
+    {
+        "x": 1125,
+        "y": 500,
+        "label": "Honeycomb",
+        "type": "animal-drop"
+    },
+    {
+        "x": 1110,
+        "y": 440,
+        "label": "Elderberry",
+        "type": "fruit"
     }
 ]
