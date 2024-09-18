@@ -1,94 +1,94 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import L from 'leaflet';
+import 'leaflet/dist/leaflet.css';
 import locations from './locations.json';
+import mapImage from './assets/chef-rpg-map.webp';
 
 const Map = () => {
+    const [map, setMap] = useState(null);
     const [markerLocations] = useState(locations);
 
-    const handleMarkerClick = (location) => {
-        alert(`Marker clicked at ${location.x}% width and ${location.y}% height`);
-    };
-    
+    useEffect(() => {
+        // Check if the map already exists, if yes, destroy it
+        if (map) {
+            map.remove(); // Cleanup the existing map before initializing a new one
+        }
+
+        // Initialize the map
+        const leafletMap = L.map('leaflet-map', {
+            crs: L.CRS.Simple,
+            minZoom: -1,
+        });
+
+        const bounds = [[0, 0], [1080, 1920]];  // Adjust to the dimensions of your image
+        L.imageOverlay(mapImage, bounds).addTo(leafletMap);
+        leafletMap.fitBounds(bounds);
+
+        setMap(leafletMap);
+
+        // Cleanup the map on component unmount
+        return () => {
+            if (leafletMap) {
+                leafletMap.remove();
+            }
+        };
+    }, []);
+
+    useEffect(() => {
+        if (map) {
+            markerLocations.forEach((location) => {
+                const marker = L.marker([location.y, location.x], {
+                    icon: L.divIcon({
+                        className: 'custom-marker',
+                        html: `
+                        <div style="background-color:width: auto; height: 25px; border-radius: 50%; display: flex; flex-direction; column; justify-content: center; align-items: center">
+                            <div>
+                                ${location.label}
+                                <svg 
+                                    width="25px"
+                                    height="25px" 
+                                    viewBox="0 0 16 16" 
+                                    fill= ${getMarkerColor(location.type)} 
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.37892 10.2236L8 16L12.6211 10.2236C13.5137 9.10788 14 7.72154 14 6.29266V6C14 2.68629 11.3137 0 8 0C4.68629 0 2 2.68629 2 6V6.29266C2 7.72154 2.4863 9.10788 3.37892 10.2236ZM8 8C9.10457 8 10 7.10457 10 6C10 4.89543 9.10457 4 8 4C6.89543 4 6 4.89543 6 6C6 7.10457 6.89543 8 8 8Z"/>
+                                </svg>
+                            </div>
+                        </div>`,
+                    })
+                }).addTo(map)
+                .bindPopup(`${location.label}`) //TODO: Add description
+            });
+        }
+    }, [map, markerLocations]);
+
     const getMarkerColor = (type) => {
         switch (type) {
             case 'fruit':
-                return '#ff5786'; //pink
+                return '#ff5786'; // pink
             case 'vegetable':
-                return '#57ff6a';  //green
+                return '#57ff6a'; // green
             case 'seafood':
-                return '#619efa'; //blue
-            case 'honey':
-                return '#f9ff57';                  //yellow
+                return '#619efa'; // blue
             case 'store':
-                return 'red'  //red
+                return 'red'; // red
             case 'grass':
                 return '#d0fc8d';
             case 'grain':
                 return '#fce38d';
             case 'herb':
                 return '#8dfc95';
+            case 'animal':
+                return 'orange'; //temp color
+            case 'animal-drop':
+                return 'yellow';
             default:
                 return 'none';
         }
-    }
+    };
 
     return (
-        <div id="map-grid">
-            { markerLocations.map((location, index) => (
-                <div
-                    key={index}
-                    className="marker"
-                    style={{  
-                        ...styles.marker,                 
-                        left: `${location.x}%`,
-                        top: `${location.y}%`,
-                    }}
-                    onClick={() => handleMarkerClick(location)}
-                >
-                    <div>
-                    {location.label}
-                    <svg 
-                        width="25px" 
-                        height="25px" 
-                        viewBox="0 0 16 16" 
-                        fill={getMarkerColor(location.type)} 
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.37892 10.2236L8 16L12.6211 10.2236C13.5137 9.10788 14 7.72154 14 6.29266V6C14 2.68629 11.3137 0 8 0C4.68629 0 2 2.68629 2 6V6.29266C2 7.72154 2.4863 9.10788 3.37892 10.2236ZM8 8C9.10457 8 10 7.10457 10 6C10 4.89543 9.10457 4 8 4C6.89543 4 6 4.89543 6 6C6 7.10457 6.89543 8 8 8Z"/>
-                    </svg>
-                    </div>
-                </div>
-            ))}
-        </div>
+        <div id="leaflet-map" style={{ width: '100vw', height: '100vh' }}></div>
     );
-}
-
-const styles = {
-    mapGrid: {
-        position: 'absolute',
-        width: '100vw',
-        height: '100vh',
-        border: '1px solid black',
-        zIndex: '2',
-        backgroundColor: '#f0f0f0'  // Optional background color
-    },
-    marker: {
-        position: 'absolute',
-        transform: 'translate(-50%, -50%)',
-        color: 'white',
-        padding: '3px',
-        borderRadius: '50%',
-        cursor: 'pointer',
-        textAlign: 'center',
-        fontSize: '14px',
-        width: '25px',
-        height: '25px',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        transition: 'transform 0.2s ease'
-    },
-    markerHover: {
-        transform: 'translate(-50%, -50%) scale(1.2)', // Makes the marker 20% bigger on hover
-    }
 };
 
 export default Map;
