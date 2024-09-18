@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import locations from './locations.json';
-import mapImage from './assets/chef-rpg-map.webp';
+import mapImage from './assets/game-map.png';
 
 const Map = () => {
     const [map, setMap] = useState(null);
@@ -37,7 +37,7 @@ const Map = () => {
     useEffect(() => {
         if (map) {
             markerLocations.forEach((location) => {
-                const marker = L.marker([location.y, location.x], {
+                const marker = L.marker([location.y+5, location.x-8], {
                     icon: L.divIcon({
                         className: 'custom-marker',
                         html: `
