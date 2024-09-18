@@ -12,5 +12,6 @@
 }
 
 #leaflet-map {
-  background: rgb(12, 12, 12);
+  background: #0000;
+  filter: drop-shadow(0 0 5rem rgb(12, 12, 12));
 }
