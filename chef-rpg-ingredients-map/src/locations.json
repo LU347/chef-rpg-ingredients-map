@@ -268,5 +268,245 @@
         "y": 245,
         "label": "Bibi Apartments",
         "type": "store"
+    },
+    {
+        "x": 815,
+        "y": 330,
+        "label": "Red Apple",
+        "type": "fruit"
+    },
+    {
+        "x": 810,
+        "y": 330,
+        "label": "Asparagus",
+        "type": "vegetable"
+    },
+    {
+        "x": 810,
+        "y": 325,
+        "label": "Raspberry",
+        "type": "fruit"
+    },
+    {
+        "x": 755,
+        "y": 330,
+        "label": "Chili",
+        "type": "fruit"
+    },
+    {
+        "x": 690,
+        "y": 335,
+        "label": "Sugarcane",
+        "type": "grass"
+    },
+    {
+        "x": 710,
+        "y": 410,
+        "label": "Chili",
+        "type": "fruit"
+    },
+    {
+        "x": 710,
+        "y": 430,
+        "label": "Chili",
+        "type": "fruit"
+    },
+    {
+        "x": 716,
+        "y": 420,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 630,
+        "y": 415,
+        "label": "Wild Carrot",
+        "type": "vegetable"
+    },
+    {
+        "x": 620,
+        "y": 420,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 610,
+        "y": 420,
+        "label": "Wild Carrot",
+        "type": "vegetable"
+    },
+    {
+        "x": 555,
+        "y": 440,
+        "label": "Cranberry",
+        "type": "fruit"
+    },
+    {
+        "x": 560,
+        "y": 470,
+        "label": "Watercress",
+        "type": "vegetable"
+    },
+    {
+        "x": 590,
+        "y": 470,
+        "label": "Boar",
+        "type": "animal"
+    },
+    {
+        "x": 590,
+        "y": 490,
+        "label": "Pheasant",
+        "type": "animal"
+    },
+    {
+        "x": 520,
+        "y": 555,
+        "label": "Cranberry",
+        "type": "fruit"
+    },
+    {
+        "x": 505,
+        "y": 555,
+        "label": "Asparagus",
+        "type": "vegetable"
+    },
+    {
+        "x": 560,
+        "y": 560,
+        "label": "Wild Rice",
+        "type": "grain"
+    },
+    {
+        "x": 565,
+        "y": 570,
+        "label": "Cranberry",
+        "type": "fruit"
+    },
+    {
+        "x": 600,
+        "y": 570,
+        "label": "Lettuce",
+        "type": "vegetable"
+    },
+    {
+        "x": 625,
+        "y": 560,
+        "label": "Wild Rice",
+        "type": "grain"
+    },
+    {
+        "x": 627,
+        "y": 520,
+        "label": "Watercress",
+        "type": "vegetable"
+    },
+    {
+        "x": 627,
+        "y": 490,
+        "label": "Cranberry",
+        "type": "fruit"
+    },
+    {
+        "x": 640,
+        "y": 490,
+        "label": "Watercress",
+        "type": "vegetable"
+    },
+    {
+        "x": 750,
+        "y": 450,
+        "label": "Spinach",
+        "type": "vegetable"
+    },
+    {
+        "x": 800,
+        "y": 430,
+        "label": "Honeycomb",
+        "type": "animal-drop"
+    },
+    {
+        "x": 815,
+        "y": 430,
+        "label": "Chili",
+        "type": "fruit"
+    },
+    {
+        "x": 815,
+        "y": 450,
+        "label": "Boar",
+        "type": "animal"
+    },
+    {
+        "x": 920,
+        "y": 450,
+        "label": "Spinach",
+        "type": "vegetable"
+    },
+    {
+        "x": 920,
+        "y": 490,
+        "label": "Mint Leaf",
+        "type": "herb"
+    },
+    {
+        "x": 910,
+        "y": 495,
+        "label": "Mint Leaf",
+        "type": "herb"
+    },
+    {
+        "x": 860,
+        "y": 515,
+        "label": "Honeycomb",
+        "type": "animal-drop"
+    },
+    {
+        "x": 855,
+        "y": 510,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 830,
+        "y": 515,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 760,
+        "y": 515,
+        "label": "Wild Rice",
+        "type": "grain"
+    },
+    {
+        "x": 755,
+        "y": 515,
+        "label": "Watercress",
+        "type": "vegetable"
+    },
+    {
+        "x": 730,
+        "y": 530,
+        "label": "Elk",
+        "type": "animal"
+    },
+    {
+        "x": 715,
+        "y": 530,
+        "label": "Pheasant",
+        "type": "animal"
+    },
+    {
+        "x": 680,
+        "y": 475,
+        "label": "Cranberry",
+        "type": "fruit"
+    },
+    {
+        "x": 700,
+        "y": 475,
+        "label": "Watercress",
+        "type": "vegetable"
     }
 ]
