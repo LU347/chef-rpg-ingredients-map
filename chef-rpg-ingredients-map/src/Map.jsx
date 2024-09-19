@@ -17,7 +17,7 @@ const Map = () => {
         // Initialize the map
         const leafletMap = L.map('leaflet-map', {
             crs: L.CRS.Simple,
-            minZoom: -1,
+            minZoom: 0,
         });
 
         const bounds = [[0, 0], [1080, 1920]];  // Adjust to the dimensions of your image
@@ -56,7 +56,7 @@ const Map = () => {
                         </div>`,
                     })
                 }).addTo(map)
-                .bindPopup(`${location.label}`) //TODO: Add description
+                .bindPopup(`${location.label}: ${location.x} ${location.y}`) //TODO: Add description
             });
         }
     }, [map, markerLocations]);

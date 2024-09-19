@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Asparagus",
+        "type": "vegetable"
+    }, 
+    {
+        "id": 2,
+        "name": "Cucumber",
+        "type": "vegetable"
+    }, 
+    {
+        "id": 3,
+        "name": "Lettuce",
+        "type": "vegetable"
+    },
+    {
+        "id": 4,
+        "name": "Mushroom",
+        "type": "vegetable"
+    },
+    {
+        "id": 5,
+        "name": "Seaweed",
+        "type": "vegetable"
+    },
+    {
+        "id": 6,
+        "name": "Spinach",
+        "type": "vegetable"
+    },
+    {
+        "id": 7,
+        "name": "Watercress",
+        "type": "vegetable"
+    },
+    {
+        "id": 8,
+        "name": "Wild Carrot",
+        "type": "vegetable"
+    },
+    {
+        "id": 9,
+        "name": "Wild Rice",
+        "type": "grain"
+    },
+    {
+        "id": 10,
+        "name": "Tea Leaf",
+        "type": "herb"
+    },
+    {
+        "id": 11,
+        "name": "Mint Leaf",
+        "type": "herb"
+    },
+    {
+        "id": 12,
+        "name": "Sugarcane",
+        "type": "grass"
+    },
+    {
+        "id": 13,
+        "name": "Crab",
+        "type": "Seafood"
+    },
+    {
+        "id": 14,
+        "name": "Clam",
+        "type": "Seafood"
+    },
+    {
+        "id": 15,
+        "name": "Egg",
+        "type": "animal-drop"
+    },
+    {
+        "id": 16,
+        "name": "Honeycomb",
+        "type": "animal-drop"
+    },
+    {
+        "id": 17,
+        "name": "Boar",
+        "type": "animal"
+    },
+    {
+        "id": 18,
+        "name": "Pheasant",
+        "type": "animal"
+    },
+    {
+        "id": 19,
+        "name": "Elk",
+        "type": "animal"
+    },
+    {
+        "id": 20,
+        "name": "Cranberry",
+        "type": "Fruit"
+    },
+    {
+        "id": 21,
+        "name": "Elderberry",
+        "type": "Fruit"
+    },
+    {
+        "id": 22,
+        "name": "Raspberry",
+        "type": "Fruit"
+    },
+    {
+        "id": 23,
+        "name": "Red Apple",
+        "type": "Fruit"
+    },
+    {
+        "id": 24,
+        "name": "Strawberry",
+        "type": "Fruit"
+    }
+]
