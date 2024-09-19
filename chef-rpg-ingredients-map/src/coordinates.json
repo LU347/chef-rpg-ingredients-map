@@ -1,0 +1,767 @@
+[
+    {
+        "id": 13,
+        "x": 650,
+        "y": 175
+    },
+    {
+        "id": 13,
+        "x": 350,
+        "y": 150
+    },
+    {
+        "id": 14,
+        "x": 300,
+        "y": 150
+    },
+    {
+        "id": 5,
+        "x": 350,
+        "y": 140
+    },
+    {
+        "id": 23,
+        "x": 430,
+        "y": 210
+    },
+    {
+        "id": 4,
+        "x": 410,
+        "y": 380
+    },
+    {
+        "id": 8,
+        "x": 395,
+        "y": 326
+    },
+    {
+        "id": 1,
+        "x": 432,
+        "y": 350
+    },
+    {
+        "id": 4,
+        "x": 420,
+        "y": 350
+    },
+    {
+        "id": 6,
+        "x": 415,
+        "y": 410
+    },
+    {
+        "id": 19,
+        "x": 420,
+        "y": 326
+    },
+    {
+        "id": 17,
+        "x": 520,
+        "y": 320
+    },
+    {
+        "id": 18,
+        "x": 550,
+        "y": 326
+    },
+    {
+        "id": 23,
+        "x": 480,
+        "y": 326
+    },
+    {
+        "id": 15,
+        "x": 495,
+        "y": 326
+    },
+    {
+        "id": 25,
+        "x": 540,
+        "y": 330
+    },
+    {
+        "id": 1,
+        "x": 520,
+        "y": 330
+    },
+    {
+        "id": 12,
+        "x": 560,
+        "y": 325
+    },
+    {
+        "id": 11,
+        "x": 600,
+        "y": 315
+    },
+    {
+        "id": 15,
+        "x": 620,
+        "y": 300
+    },
+    {
+        "id": 21,
+        "x": 610,
+        "y": 290
+    },
+    {
+        "id": 12,
+        "x": 629,
+        "y": 290
+    },
+    {
+        "id": 25,
+        "x": 631,
+        "y": 280
+    },
+    {
+        "id": 17,
+        "x": 631,
+        "y": 250
+    },
+    {
+        "id": 23,
+        "x": 610,
+        "y": 250
+    },
+    {
+        "id": 4,
+        "x": 550,
+        "y": 210
+    },
+    {
+        "id": 21,
+        "x": 520,
+        "y": 220
+    },
+    {
+        "id": 18,
+        "x": 500,
+        "y": 270
+    },
+    {
+        "id": 17,
+        "x": 500,
+        "y": 280
+    },
+    {
+        "id": 1,
+        "x": 880,
+        "y": 195
+    },
+    {
+        "id": 24,
+        "x": 915,
+        "y": 270
+    },
+    {
+        "id": 1,
+        "x": 920,
+        "y": 300
+    },
+    {
+        "id": 23,
+        "x": 980,
+        "y": 290
+    },
+    {
+        "id": 22,
+        "x": 1020,
+        "y": 320
+    },
+    {
+        "id": 26,
+        "x": 1150,
+        "y": 320
+    },
+    {
+        "id": 27,
+        "x": 1175,
+        "y": 300
+    },
+    {
+        "id": 28,
+        "x": 1225,
+        "y": 299
+    },
+    {
+        "id": 29,
+        "x": 1245,
+        "y": 299
+    },
+    {
+        "id": 30,
+        "x": 1260,
+        "y": 260
+    },
+    {
+        "x": 1270,
+        "y": 220,
+        "label": "Bits & Pieces",
+        "type": "store"
+    },
+    {
+        "x": 1200,
+        "y": 238,
+        "label": "La Galerie",
+        "type": "store"
+    },
+    {
+        "x": 1170,
+        "y": 225,
+        "label": "Hotel Rose",
+        "type": "store"
+    },
+    {
+        "x": 1170,
+        "y": 170,
+        "label": "Fish King",
+        "type": "store"
+    },
+    {
+        "x": 1110,
+        "y": 245,
+        "label": "Milk & Wheat",
+        "type": "store"
+    },
+    {
+        "x": 1050,
+        "y": 245,
+        "label": "Bibi Apartments",
+        "type": "store"
+    },
+    {
+        "x": 815,
+        "y": 330,
+        "label": "Red Apple",
+        "type": "fruit"
+    },
+    {
+        "x": 810,
+        "y": 330,
+        "label": "Asparagus",
+        "type": "vegetable"
+    },
+    {
+        "x": 810,
+        "y": 325,
+        "label": "Raspberry",
+        "type": "fruit"
+    },
+    {
+        "x": 755,
+        "y": 330,
+        "label": "Chili",
+        "type": "fruit"
+    },
+    {
+        "x": 690,
+        "y": 335,
+        "label": "Sugarcane",
+        "type": "grass"
+    },
+    {
+        "x": 710,
+        "y": 410,
+        "label": "Chili",
+        "type": "fruit"
+    },
+    {
+        "x": 710,
+        "y": 430,
+        "label": "Chili",
+        "type": "fruit"
+    },
+    {
+        "x": 716,
+        "y": 420,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 630,
+        "y": 415,
+        "label": "Wild Carrot",
+        "type": "vegetable"
+    },
+    {
+        "x": 620,
+        "y": 420,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 610,
+        "y": 420,
+        "label": "Wild Carrot",
+        "type": "vegetable"
+    },
+    {
+        "x": 555,
+        "y": 440,
+        "label": "Cranberry",
+        "type": "fruit"
+    },
+    {
+        "x": 560,
+        "y": 470,
+        "label": "Watercress",
+        "type": "vegetable"
+    },
+    {
+        "x": 590,
+        "y": 470,
+        "label": "Boar",
+        "type": "animal"
+    },
+    {
+        "x": 580,
+        "y": 500,
+        "label": "Elk",
+        "type": "animal"
+    },
+    {
+        "x": 590,
+        "y": 490,
+        "label": "Pheasant",
+        "type": "animal"
+    },
+    {
+        "x": 520,
+        "y": 555,
+        "label": "Cranberry",
+        "type": "fruit"
+    },
+    {
+        "x": 505,
+        "y": 555,
+        "label": "Asparagus",
+        "type": "vegetable"
+    },
+    {
+        "x": 520,
+        "y": 525,
+        "label": "Asparagus",
+        "type": "vegetable"
+    },
+    {
+        "x": 450,
+        "y": 540,
+        "label": "Cranberry",
+        "type": "fruit"
+    },
+    {
+        "x": 400,
+        "y": 500,
+        "label": "Mushroom",
+        "type": "vegetable"
+    },
+    {
+        "x": 400,
+        "y": 490,
+        "label": "Spinach",
+        "type": "vegetable"
+    },
+    {
+        "x": 420,
+        "y": 480,
+        "label": "Spinach",
+        "type": "vegetable"
+    },
+    {
+        "x": 414,
+        "y": 485,
+        "label": "Spinach",
+        "type": "vegetable"
+    },
+    {
+        "x": 350,
+        "y": 485,
+        "label": "Boar",
+        "type": "animal"
+    },
+    {
+        "x": 400,
+        "y": 455,
+        "label": "Honeycomb",
+        "type": "animal-drop"
+    },
+    {
+        "x": 405,
+        "y": 455,
+        "label": "Spinach",
+        "type": "vegetable"
+    },
+    {
+        "x": 402,
+        "y": 450,
+        "label": "Spinach",
+        "type": "vegetable"
+    },
+    {
+        "x": 310,
+        "y": 515,
+        "label": "Spinach",
+        "type": "vegetable"
+    },
+    {
+        "x": 315,
+        "y": 520,
+        "label": "Spinach",
+        "type": "vegetable"
+    },
+    {
+        "x": 317,
+        "y": 510,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 380,
+        "y": 510,
+        "label": "Cranberry",
+        "type": "fruit"
+    },
+    {
+        "x": 320,
+        "y": 515,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 330,
+        "y": 460,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 300,
+        "y": 490,
+        "label": "Spinach",
+        "type": "vegetable"
+    },
+    {
+        "x": 390,
+        "y": 465,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 385,
+        "y": 460,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 385,
+        "y": 450,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 350,
+        "y": 440,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 365,
+        "y": 430,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 360,
+        "y": 450,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 350,
+        "y": 440,
+        "label": "Spinach",
+        "type": "vegetable"
+    },
+    {
+        "x": 560,
+        "y": 560,
+        "label": "Wild Rice",
+        "type": "grain"
+    },
+    {
+        "x": 565,
+        "y": 570,
+        "label": "Cranberry",
+        "type": "fruit"
+    },
+    {
+        "x": 600,
+        "y": 570,
+        "label": "Lettuce",
+        "type": "vegetable"
+    },
+    {
+        "x": 625,
+        "y": 560,
+        "label": "Wild Rice",
+        "type": "grain"
+    },
+    {
+        "x": 627,
+        "y": 520,
+        "label": "Watercress",
+        "type": "vegetable"
+    },
+    {
+        "x": 627,
+        "y": 490,
+        "label": "Cranberry",
+        "type": "fruit"
+    },
+    {
+        "x": 640,
+        "y": 490,
+        "label": "Watercress",
+        "type": "vegetable"
+    },
+    {
+        "x": 750,
+        "y": 450,
+        "label": "Spinach",
+        "type": "vegetable"
+    },
+    {
+        "x": 800,
+        "y": 430,
+        "label": "Honeycomb",
+        "type": "animal-drop"
+    },
+    {
+        "x": 815,
+        "y": 430,
+        "label": "Chili",
+        "type": "fruit"
+    },
+    {
+        "x": 815,
+        "y": 450,
+        "label": "Boar",
+        "type": "animal"
+    },
+    {
+        "x": 920,
+        "y": 450,
+        "label": "Spinach",
+        "type": "vegetable"
+    },
+    {
+        "x": 920,
+        "y": 490,
+        "label": "Mint Leaf",
+        "type": "herb"
+    },
+    {
+        "x": 910,
+        "y": 495,
+        "label": "Mint Leaf",
+        "type": "herb"
+    },
+    {
+        "x": 860,
+        "y": 515,
+        "label": "Honeycomb",
+        "type": "animal-drop"
+    },
+    {
+        "x": 855,
+        "y": 510,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 830,
+        "y": 515,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 760,
+        "y": 515,
+        "label": "Wild Rice",
+        "type": "grain"
+    },
+    {
+        "x": 755,
+        "y": 515,
+        "label": "Watercress",
+        "type": "vegetable"
+    },
+    {
+        "x": 730,
+        "y": 530,
+        "label": "Elk",
+        "type": "animal"
+    },
+    {
+        "x": 715,
+        "y": 530,
+        "label": "Pheasant",
+        "type": "animal"
+    },
+    {
+        "x": 680,
+        "y": 475,
+        "label": "Cranberry",
+        "type": "fruit"
+    },
+    {
+        "x": 700,
+        "y": 475,
+        "label": "Watercress",
+        "type": "vegetable"
+    },
+    {
+        "x": 755,
+        "y": 320,
+        "label": "Honeycomb",
+        "type": "animal-drop"
+    },
+    {
+        "x": 745,
+        "y": 340,
+        "label": "Mint Leaf",
+        "type": "herb"
+    },
+    {
+        "x": 1500,
+        "y": 215,
+        "label": "Mushroom",
+        "type": "vegetable"
+    },
+    {
+        "x": 1570,
+        "y": 215,
+        "label": "Clam",
+        "type": "seafood"
+    },
+    {
+        "x": 1570,
+        "y": 190,
+        "label": "Seaweed",
+        "type": "vegetable"
+    },
+    {
+        "x": 1620,
+        "y": 215,
+        "label": "Crab",
+        "type": "seafood"
+    },
+    {
+        "x": 1670,
+        "y": 320,
+        "label": "Wild Carrot",
+        "type": "vegetable"
+    },
+    {
+        "x": 1530,
+        "y": 320,
+        "label": "Pheasant",
+        "type": "animal"
+    },
+    {
+        "x": 1520,
+        "y": 400,
+        "label": "Red Apple",
+        "type": "fruit"
+    },
+    {
+        "x": 1480,
+        "y": 420,
+        "label": "Spinach",
+        "type": "vegetable"
+    },
+    {
+        "x": 1460,
+        "y": 425,
+        "label": "Mint Leaf",
+        "type": "herb"
+    },
+    {
+        "x": 1480,
+        "y": 435,
+        "label": "Mint Leaf",
+        "type": "herb"
+    },
+    {
+        "x": 1375,
+        "y": 510,
+        "label": "Sorghum",
+        "type": "grain"
+    },
+    {
+        "x": 1365,
+        "y": 510,
+        "label": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "x": 1372,
+        "y": 519,
+        "label": "Raspberry",
+        "type": "fruit"
+    },
+    {
+        "x": 1360,
+        "y": 470,
+        "label": "Sorghum",
+        "type": "grain"
+    },
+    {
+        "x": 1280,
+        "y": 490,
+        "label": "Tea Leaves",
+        "type": "herb"
+    },
+    {
+        "x": 1290,
+        "y": 490,
+        "label": "Tea Leaves",
+        "type": "herb"
+    },
+    {
+        "x": 1220,
+        "y": 485,
+        "label": "Tea Leaves",
+        "type": "herb"
+    },
+    {
+        "x": 1215,
+        "y": 485,
+        "label": "Tea Leaves",
+        "type": "herb"
+    },
+    {
+        "x": 1260,
+        "y": 510,
+        "label": "Sorghum",
+        "type": "grain"
+    },
+    {
+        "x": 1235,
+        "y": 515,
+        "label": "Sorghum",
+        "type": "grain"
+    },
+    {
+        "x": 1125,
+        "y": 500,
+        "label": "Honeycomb",
+        "type": "animal-drop"
+    },
+    {
+        "x": 1110,
+        "y": 440,
+        "label": "Elderberry",
+        "type": "fruit"
+    }
+]

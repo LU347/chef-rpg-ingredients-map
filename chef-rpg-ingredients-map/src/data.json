@@ -97,26 +97,56 @@
     {
         "id": 20,
         "name": "Cranberry",
-        "type": "Fruit"
+        "type": "fruit"
     },
     {
         "id": 21,
         "name": "Elderberry",
-        "type": "Fruit"
+        "type": "fruit"
     },
     {
         "id": 22,
         "name": "Raspberry",
-        "type": "Fruit"
+        "type": "fruit"
     },
     {
         "id": 23,
         "name": "Red Apple",
-        "type": "Fruit"
+        "type": "fruit"
     },
     {
         "id": 24,
         "name": "Strawberry",
-        "type": "Fruit"
+        "type": "fruit"
+    },
+    {
+        "id": 25,
+        "name": "Chili",
+        "type": "fruit"
+    }, 
+    {
+        "id": 26,
+        "name": "Town Hall",
+        "type": "building"
+    },
+    {
+        "id": 27,
+        "name": "Chop",
+        "type": "building"
+    }, 
+    {
+        "id": 28,
+        "name": "Greenstalk",
+        "type": "building"
+    }, 
+    {
+        "id": 29,
+        "name": "Nabiha's Berries",
+        "type": "building"
+    },
+    {
+        "id": 30,
+        "name": "Bea's Bar",
+        "type": "building"
     }
 ]
