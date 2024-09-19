@@ -62,12 +62,12 @@
     {
         "id": 12,
         "name": "Crab",
-        "type": "Seafood"
+        "type": "seafood"
     },
     {
         "id": 13,
         "name": "Clam",
-        "type": "Seafood"
+        "type": "seafood"
     },
     {
         "id": 14,
@@ -148,5 +148,10 @@
         "id": 29,
         "name": "Bea's Bar",
         "type": "building"
+    },
+    {
+        "id": 30,
+        "name": "Sorghum",
+        "type": "grain"
     }
 ]
