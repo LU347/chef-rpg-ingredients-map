@@ -6,18 +6,19 @@ To add more locations: specify the x and y index, label, and marker type (vegeta
 ## Sample Location
 ```json
  {
+   "id": 0    //Asparagus
    "x": 50,
-   "y": 50,
-   "label": "sample"
-   "type": "store"
+   "y": 50
  }
 ```
 
 ## Tasks
-- [ ] Populate the map with markers
+- [x] Populate the map with markers
 - [ ] Show more details when user clicks on a marker
 - [ ] Side bar for map key or to toggle the visibility of markers (?)
 - [ ] Change map ingredients depending on the season
+- [ ] Add possible fish per area
+- [ ] Multi-language support
 
 ## How to Contribute
  1. Fork this repository
