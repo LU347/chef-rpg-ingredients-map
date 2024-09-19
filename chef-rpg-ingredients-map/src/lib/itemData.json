@@ -1,0 +1,152 @@
+[
+    {
+        "id": 0,
+        "name": "Asparagus",
+        "type": "vegetable"
+    }, 
+    {
+        "id": 1,
+        "name": "Cucumber",
+        "type": "vegetable"
+    }, 
+    {
+        "id": 2,
+        "name": "Lettuce",
+        "type": "vegetable"
+    },
+    {
+        "id": 3,
+        "name": "Mushroom",
+        "type": "vegetable"
+    },
+    {
+        "id": 4,
+        "name": "Seaweed",
+        "type": "vegetable"
+    },
+    {
+        "id": 5,
+        "name": "Spinach",
+        "type": "vegetable"
+    },
+    {
+        "id": 6,
+        "name": "Watercress",
+        "type": "vegetable"
+    },
+    {
+        "id": 7,
+        "name": "Wild Carrot",
+        "type": "vegetable"
+    },
+    {
+        "id": 8,
+        "name": "Wild Rice",
+        "type": "grain"
+    },
+    {
+        "id": 9,
+        "name": "Tea Leaf",
+        "type": "herb"
+    },
+    {
+        "id": 10,
+        "name": "Mint Leaf",
+        "type": "herb"
+    },
+    {
+        "id": 11,
+        "name": "Sugarcane",
+        "type": "grass"
+    },
+    {
+        "id": 12,
+        "name": "Crab",
+        "type": "Seafood"
+    },
+    {
+        "id": 13,
+        "name": "Clam",
+        "type": "Seafood"
+    },
+    {
+        "id": 14,
+        "name": "Egg",
+        "type": "animal-drop"
+    },
+    {
+        "id": 15,
+        "name": "Honeycomb",
+        "type": "animal-drop"
+    },
+    {
+        "id": 16,
+        "name": "Boar",
+        "type": "animal"
+    },
+    {
+        "id": 17,
+        "name": "Pheasant",
+        "type": "animal"
+    },
+    {
+        "id": 18,
+        "name": "Elk",
+        "type": "animal"
+    },
+    {
+        "id": 19,
+        "name": "Cranberry",
+        "type": "fruit"
+    },
+    {
+        "id": 20,
+        "name": "Elderberry",
+        "type": "fruit"
+    },
+    {
+        "id": 21,
+        "name": "Raspberry",
+        "type": "fruit"
+    },
+    {
+        "id": 22,
+        "name": "Red Apple",
+        "type": "fruit"
+    },
+    {
+        "id": 23,
+        "name": "Strawberry",
+        "type": "fruit"
+    },
+    {
+        "id": 24,
+        "name": "Chili",
+        "type": "fruit"
+    }, 
+    {
+        "id": 25,
+        "name": "Town Hall",
+        "type": "building"
+    },
+    {
+        "id": 26,
+        "name": "Chop",
+        "type": "building"
+    }, 
+    {
+        "id": 27,
+        "name": "Greenstalk",
+        "type": "building"
+    }, 
+    {
+        "id": 28,
+        "name": "Nabiha's Berries",
+        "type": "building"
+    },
+    {
+        "id": 29,
+        "name": "Bea's Bar",
+        "type": "building"
+    }
+]
