@@ -60,9 +60,15 @@ const Map = () => {
                     popupAnchor: [0, -32], 
                 });
 
-                L.marker([location.y + 5, location.x - 8], { icon: customIcon })
+                const marker = L.marker([location.y + 5, location.x - 8], { icon: customIcon })
                     .addTo(map)
                     .bindPopup(`${itemName}: ${location.x} ${location.y}`);
+
+                marker.bindTooltip(itemName, {
+                    permanent: true, 
+                    direction: 'top', 
+                    offset: [0, -32], 
+                });
             });
         }
     }, [map, markerLocations]);
