@@ -6,9 +6,18 @@ import mapImage from './assets/game-map.png';
 import coordinates from './lib/coordinates.json';
 import items  from './lib/itemData.json';
 
+import animalIcon from './assets/map-markers/animal.png';
+import fruitIcon from './assets/map-markers/fruit.png';
+import grainIcon from './assets/map-markers/grain.png';
+import herbIcon from './assets/map-markers/herb.png';
+import vegetableIcon from './assets/map-markers/vegetable.png';
+import seafoodIcon from './assets/map-markers/seafood.png';
+import buildingIcon from './assets/map-markers/building.png';
+import grassIcon from './assets/map-markers/grass.png';
+import animalDropIcon from './assets/map-markers/animalDrop.png';
+
 const Map = () => {
     const [map, setMap] = useState(null);
-    //const [markerLocations] = useState(locations);
     const [markerLocations] = useState(coordinates);
     const [itemData] = useState(items);
 
@@ -43,52 +52,43 @@ const Map = () => {
             markerLocations.forEach((location) => {
                 const itemName = itemData[location["id"]]["name"];
                 const itemType = itemData[location["id"]]["type"];
-                const marker = L.marker([location.y+5, location.x-8], {
-                    icon: L.divIcon({
-                        className: 'custom-marker',
-                        html: `
-                        <div style="background-color:width: auto; height: 25px; border-radius: 50%; display: flex; flex-direction; column; justify-content: center; align-items: center">
-                            <div>
-                                ${itemName}
-                                <svg 
-                                    width="25px"
-                                    height="25px" 
-                                    viewBox="0 0 16 16" 
-                                    fill= ${getMarkerColor(itemType)} 
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.37892 10.2236L8 16L12.6211 10.2236C13.5137 9.10788 14 7.72154 14 6.29266V6C14 2.68629 11.3137 0 8 0C4.68629 0 2 2.68629 2 6V6.29266C2 7.72154 2.4863 9.10788 3.37892 10.2236ZM8 8C9.10457 8 10 7.10457 10 6C10 4.89543 9.10457 4 8 4C6.89543 4 6 4.89543 6 6C6 7.10457 6.89543 8 8 8Z"/>
-                                </svg>
-                            </div>
-                        </div>`,
-                    })
-                }).addTo(map)
-                .bindPopup(`${itemName}: ${location.x} ${location.y}`) //TODO: Add description
+
+                const customIcon = L.icon({
+                    iconUrl: getMarkerIcon(itemType), 
+                    iconSize: [32, 32], 
+                    iconAnchor: [16, 32], 
+                    popupAnchor: [0, -32], 
+                });
+
+                L.marker([location.y + 5, location.x - 8], { icon: customIcon })
+                    .addTo(map)
+                    .bindPopup(`${itemName}: ${location.x} ${location.y}`);
             });
         }
     }, [map, markerLocations]);
 
-    const getMarkerColor = (type) => {
+    const getMarkerIcon = (type) => {
         switch (type) {
             case 'fruit':
-                return '#ff5786'; // pink
+                return fruitIcon; 
             case 'vegetable':
-                return '#57ff6a'; // green
+                return vegetableIcon; 
             case 'seafood':
-                return '#619efa'; // blue
+                return seafoodIcon; 
             case 'building':
-                return 'red'; // red
+                return buildingIcon;
             case 'grass':
-                return '#d0fc8d';
+                return grassIcon;
             case 'grain':
-                return '#fce38d';
+                return grainIcon;
             case 'herb':
-                return '#8dfc95';
+                return herbIcon;
             case 'animal':
-                return 'orange'; //temp color
+                return animalIcon; 
             case 'animal-drop':
-                return 'yellow';
+                return animalDropIcon;
             default:
-                return 'none';
+                return animalIcon;
         }
     };
 
