@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "name": "vegetable"
+    },
+    {
+        "id": 1,
+        "name": "fruit"
+    },
+    {
+        "id": 2,
+        "name": "herb"
+    },
+    {
+        "id": 3,
+        "name": "grain"
+    },
+    {
+        "id": 4,
+        "name": "building"
+    },
+    {
+        "id": 5,
+        "name": "seafood"
+    }
+]
