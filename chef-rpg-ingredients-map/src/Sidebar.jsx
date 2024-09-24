@@ -16,11 +16,12 @@ const Sidebar = () => {
     const ref = useRef();
 
     const handleToggle = () => {
-        if (ref.current.style.right === "0%") {
-            ref.current.style.right = "-15%";
+        if (isOpen) {
+            ref.current.style.transform = "translateX(450px)";
         } else {
-            ref.current.style.right = "0%";
+            ref.current.style.transform = "translateX(0px)";
         }
+        toggleSidebar(!isOpen)
     };
 
 
