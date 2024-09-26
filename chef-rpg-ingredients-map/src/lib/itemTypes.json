@@ -1,0 +1,38 @@
+[
+    {
+        "id": 0,
+        "type": "vegetable"
+    }, 
+    {
+        "id": 1,
+        "type": "grain"
+    },
+    {
+        "id": 2,
+        "type": "herb"
+    },
+    {
+        "id": 3,
+        "type": "grass"
+    },
+    {
+        "id": 4,
+        "type": "seafood"
+    },
+    {
+        "id": 5,
+        "type": "animal-drop"
+    },
+    {
+        "id": 6,
+        "type": "animal"
+    },
+    {
+        "id": 9,
+        "type": "fruit"
+    },
+    {
+        "id": 10,
+        "type": "building"
+    }
+]
