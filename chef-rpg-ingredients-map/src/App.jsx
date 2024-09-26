@@ -1,12 +1,11 @@
 import { Analytics } from "@vercel/analytics/react"
-
-import Map from './Map.jsx';
+import MapComponent from './MapComponent.jsx';
 import './App.css'
 
 function App() {
   return (
     <div id="app">
-      <Map />
+      <MapComponent />
       <Analytics />
     </div>
   )
