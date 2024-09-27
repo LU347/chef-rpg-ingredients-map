@@ -1,17 +1,6 @@
 # Chef RPG Interactive Map 👨‍🍳🚧[WIP]
 
-The goal of this repository is to make it easier for players to search for an ingredient. Current map dimensions are 1080x1920. Each marker is hardcoded by an (x,y) position. I currently have the locations in a json file (src/locations.json).
-
-To add more locations: specify the x and y index, label, and marker type (vegetable, seafood, fruit, store).
-## Sample Location
-```json
- {
-   "id": 0    //Asparagus
-   "x": 50,
-   "y": 50
- }
-```
-
+The goal of this repository is to make it easier for players to search for an ingredient, fish, or an npc.
 ## Tasks
 - [x] Populate the map with markers
 - [ ] Show more details when user clicks on a marker

@@ -1,5 +1,4 @@
-#root {
-  max-width: 1280px;
+* {
   margin: 0;
   padding: 0;
 }
@@ -11,7 +10,9 @@
   z-index: -1;
 }
 
+
 #leaflet-map {
   background: #0000;
   filter: drop-shadow(0 0 5rem rgb(12, 12, 12));
 }
+

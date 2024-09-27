@@ -1,4 +1,5 @@
-import Map from './Map.jsx';
+import { Analytics } from "@vercel/analytics/react"
+import MapComponent from './MapComponent.jsx';
 import './App.css'
 import Sidebar from './sidebar.jsx';
 
@@ -6,7 +7,8 @@ function App() {
   return (
     <div id="app">
       <Sidebar />
-      <Map />
+      <MapComponent />
+      <Analytics />
     </div>
   )
 }
