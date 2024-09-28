@@ -40,37 +40,19 @@ const Sidebar = () => {
                 <input type="text" placeholder="Search Ingredient"></input>
                 <h3>Types</h3>
                 <div className="types-container">
-                    {itemTypes.map(item => (
-                        <div key={item.name}>
-                            <input type="checkbox" id={item.name} value={item.name}></input>
-                            <label htmlFor={item.name}>{item.name.charAt(0).toUpperCase() + item.name.slice(1)}</label>
-                        </div>
-                    ))}
+                    <iinput type="checkbox" value="animal">Animals</iinput>
+                    <iinput type="checkbox" value="animalDrop">Animal Drop</iinput>
+                    <iinput type="checkbox" value="fruit">Fruits</iinput>
+                    <iinput type="checkbox" value="herb">Herbs</iinput>
+                    <iinput type="checkbox" value="vegetable">Vegetables</iinput>
+                    <iinput type="checkbox" value="seafood">Seafood</iinput>
                 </div>
                 <h3>Ingredients</h3>
                 <button>Hide all</button>
                 <div className="ingredients-container">
-                    {itemData.map(item => (
-                        item.type !== "building" ?
-                            (
-                                <div key={item.id}>
-                                    <input type="checkbox" id={item.name} value={item.name}></input>
-                                    <label htmlFor={item.name}>{item.name}</label>
-                                </div>
-                            ) : null
-                    ))}
                 </div>
                 <h3>Buildings</h3>
                 <div className="buildings-container">
-                    {itemData.map(item => (
-                        item.type === "building" ?
-                            (
-                                <div key={item.id}>
-                                    <input type="checkbox" id={item.name} value={item.name}></input>
-                                    <label htmlFor={item.name}>{item.name}</label>
-                                </div>
-                            ) : null
-                    ))}
                 </div>
                 <h3>NPCs</h3>
                 <h3>Misc</h3>

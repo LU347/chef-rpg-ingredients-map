@@ -4,11 +4,11 @@ import { Icon } from 'leaflet';
 import L from 'leaflet';
 
 import "leaflet/dist/leaflet.css";
-import icons from './iconMapper.js';
 import mapImageUrl from './assets/game-map.png';
 
 import coordinates from './lib/coordinates.json';
 import items from './lib/itemData.json';
+import MarkerComponent from './MarkerComponent.jsx';
 
 function MapComponent() {
   const [itemData] = useState(items);
@@ -35,9 +35,7 @@ function MapComponent() {
     setMarkerObjects(newMarkers);
   }, [itemCoordinates, itemData]);
 
-  const getMarkerIcon = (type) => {
-    return icons[type];
-  }
+
 
   return (
     <MapContainer 
@@ -55,18 +53,7 @@ function MapComponent() {
           zIndex={10}
       />
         {markerObjects.map((marker, index) => (
-          <Marker 
-            key={index} 
-            position={marker.position} 
-            icon={
-              new Icon({
-                iconUrl: getMarkerIcon(marker.itemType),
-                iconSize: [38, 38]
-              })
-            }>
-            <Tooltip permanent={true} direction={'top'} offset={[0, -32]}>{marker.itemName}</Tooltip>
-            <Popup>{marker.itemName}</Popup>
-          </Marker>
+          <MarkerComponent key={index} markerObject={marker} />
         ))}
     </MapContainer>
   );

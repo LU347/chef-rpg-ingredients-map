@@ -3,16 +3,12 @@
   padding: 0;
 }
 
-.chef-rpg-map {
-  margin: 0;
-  height: 100vh;
-  width: 100vw;
-  z-index: -1;
-}
-
-
 #leaflet-map {
   background: #0000;
   filter: drop-shadow(0 0 5rem rgb(12, 12, 12));
 }
+
+.leaflet-control { z-index: 0 !important}
+.leaflet-pane { z-index: 0 !important}
+.leaflet-top, .leaflet-bottom {z-index: 0 !important}
 
