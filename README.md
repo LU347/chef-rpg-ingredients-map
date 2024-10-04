@@ -6,10 +6,10 @@ The goal of this repository is to make it easier for players to search for an in
 
 
 ## Tasks
-- [ ] Make marker objects accessible by other components
+- [x] Make marker objects accessible by other components
 - [x] Populate the map with markers
 - [ ] Show more details when user clicks on a marker
-- [ ] Side bar for map key or to toggle the visibility of markers (?)
+- [x] Side bar for map key or to toggle the visibility of markers (?)
 - [ ] Change map ingredients depending on the season
 - [ ] Add possible fish per area
 - [ ] Multi-language support
