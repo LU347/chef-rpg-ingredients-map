@@ -1,18 +1,10 @@
-import React, { useState } from "react";
-import { useRef } from "react";
-
+import React, { useState, useRef } from "react";
 import sidebarOpenIcon from './assets/chevron_backward.svg';
 import sidebarClosedIcon from './assets/chevron_forward.svg';
 import "./Sidebar.css";
 
-import itemTypes from './lib/itemTypes.json';
-import itemData from './lib/itemData.json';
-
-var sidebar = document.getElementById("sidebar");
-
-const Sidebar = () => {
+const Sidebar = ({ onSearch }) => {
     const [isOpen, toggleSidebar] = useState(true);
-
     const ref = useRef();
 
     const handleToggle = () => {
@@ -21,14 +13,21 @@ const Sidebar = () => {
         } else {
             ref.current.style.transform = "translateX(0px)";
         }
-        toggleSidebar(!isOpen)
+        toggleSidebar(!isOpen);
     };
 
+    const handleSearchInputChange = (event) => {
+        onSearch(event.target.value); // Pass the search term to the parent component
+    };
 
+    /* TODO: Switch Icons depending on sidebar status */
     return (
         <div ref={ref} id="sidebar" className="sidebar">
-            <button id="sidebarButton" onClick={handleToggle}><img src={sidebarClosedIcon} alt="Close Sidebar"></img></button>
+            <button id="sidebarButton" onClick={handleToggle}>
+                <img src={sidebarClosedIcon} alt="Close Sidebar" />
+            </button>
             <div className="menu">
+                { /*
                 <h2>Season</h2>
                 <select>
                     <option>Spring</option>
@@ -36,29 +35,18 @@ const Sidebar = () => {
                     <option>Fall</option>
                     <option>Winter</option>
                 </select>
-                <hr></hr>
-                <input type="text" placeholder="Search Ingredient"></input>
+                */}
+                <h2>Search</h2>
+                <hr />
+                <input 
+                    type="text" 
+                    placeholder="Search Ingredient" 
+                    onChange={handleSearchInputChange} // Call the function on input change
+                />
+                {/* 
+                Additional sidebar content 
                 <h3>Types</h3>
-                <div className="types-container">
-                    <iinput type="checkbox" value="animal">Animals</iinput>
-                    <iinput type="checkbox" value="animalDrop">Animal Drop</iinput>
-                    <iinput type="checkbox" value="fruit">Fruits</iinput>
-                    <iinput type="checkbox" value="herb">Herbs</iinput>
-                    <iinput type="checkbox" value="vegetable">Vegetables</iinput>
-                    <iinput type="checkbox" value="seafood">Seafood</iinput>
-                </div>
-                <h3>Ingredients</h3>
-                <button>Hide all</button>
-                <div className="ingredients-container">
-                </div>
-                <h3>Buildings</h3>
-                <div className="buildings-container">
-                </div>
-                <h3>NPCs</h3>
-                <h3>Misc</h3>
-                <div>
-                    <button>Toggle Labels</button>
-                </div>
+                */}
             </div>
         </div>
     );

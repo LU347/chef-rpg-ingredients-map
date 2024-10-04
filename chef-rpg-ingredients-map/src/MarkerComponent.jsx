@@ -5,9 +5,10 @@ import { Icon } from 'leaflet';
 import icons from './iconMapper.js';
 
 function MarkerComponent(props) {
-    const getMarkerIcon = (type) => {
-        return icons[type];
-    }
+  
+  const getMarkerIcon = (type) => {
+      return icons[type];
+  }
 
   return (
     <Marker
