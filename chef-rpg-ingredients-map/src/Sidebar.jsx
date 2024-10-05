@@ -4,7 +4,7 @@ import sidebarClosedIcon from './assets/chevron_forward.svg';
 import "./Sidebar.css";
 
 const Sidebar = ({ onSearch }) => {
-    const [isOpen, toggleSidebar] = useState(true);
+    const [isOpen, toggleSidebar] = useState(false);
     const ref = useRef();
 
     const handleToggle = () => {
