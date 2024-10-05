@@ -38,10 +38,18 @@
     margin-bottom: 0.8rem;
 }
 
-#sidebarButton {
+.sidebar button {
     position: fixed;
     background-color: var(--bg-color);
-    transform: translateX(-60px);
+    transition: transform 0.5s ease-in-out; 
+}
+
+.sidebar.open button {
+    transform: translateX(-2vw);
+}
+
+.sidebar.closed button {
+    transform: translate(-5vw);
 }
 
 .menu {
@@ -51,12 +59,19 @@
 /* Responsive Styles */
 @media (max-width: 768px) {
     .sidebar {
-        width: 100%;
         transform: translateX(100%); 
     }
 
+    .sidebar.open button {
+        transform: translateX(2vw);
+    }
+
+    .sidebar.closed button {
+        transform: translateX(-15vw);
+    }
+
     /*TODO: Change Icon */
-    #sidebarButton {
+    .sidebar button {
         transform: translate(0px);
     }
 
@@ -66,8 +81,29 @@
 }
 
 @media (max-width: 450px) {
-    #sidebarButton {
-        transform: translateX(-40px); 
+    .sidebar.closed button {
+        transform: translateX(-15vw);
+    }
+
+
+    .sidebar.open button {
+        transform: translateX(2vw);
+    }
+
+    .menu {
+        padding-top: 10vh;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .sidebar.closed button {
+        transform: translateX(-38vw);
+    }
+
+
+    .sidebar.open button {
+        transform: translateX(2vw);
     }
 
     .menu {
