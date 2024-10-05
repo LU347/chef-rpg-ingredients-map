@@ -22,7 +22,11 @@ const Sidebar = ({ onSearch }) => {
 
     /* TODO: Switch Icons depending on sidebar status */
     return (
-        <div ref={ref} id="sidebar" className="sidebar">
+        <div 
+            ref={ref} 
+            id="sidebar" 
+            className={`sidebar ${isOpen ? "open" : "closed"}`}
+        >
             <button id="sidebarButton" onClick={handleToggle}>
                 <img src={sidebarClosedIcon} alt="Close Sidebar" />
             </button>
