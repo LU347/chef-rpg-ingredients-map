@@ -13,6 +13,8 @@ The goal of this repository is to make it easier for players to search for an in
 - [ ] Change map ingredients depending on the season
 - [ ] Add possible fish per area
 - [ ] Multi-language support
+- [ ] Pull data from a database instead of JSON files
+- [ ] Use tailwindcss
 
 ## How to Contribute
  1. Fork this repository
