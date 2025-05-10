@@ -1,4 +1,4 @@
-# Chef RPG Interactive Map 👨‍🍳🚧[WIP]
+# Chef RPG Interactive Map 👨‍🍳
 
 The goal of this repository is to make it easier for players to search for an ingredient, fish, or an npc.
 
