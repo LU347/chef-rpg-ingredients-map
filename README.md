@@ -2,9 +2,6 @@
 
 The goal of this repository is to make it easier for players to search for an ingredient, fish, or an npc.
 
-![db-diagram](https://github.com/user-attachments/assets/a9afe702-401e-4ef6-a004-caef7fed6b96)
-
-
 ## Tasks
 - [x] Make marker objects accessible by other components
 - [x] Populate the map with markers
