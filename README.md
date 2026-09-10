@@ -10,10 +10,9 @@ The goal of this repository is to make it easier for players to search for an in
 - [x] Populate the map with markers
 - [ ] Show more details when user clicks on a marker
 - [x] Side bar for map key or to toggle the visibility of markers (?)
-- [ ] Change map ingredients depending on the season
+- [ ] Change map ingredients depending on the season (Need game data for this)
 - [ ] Add possible fish per area
 - [ ] Multi-language support
-- [ ] Pull data from a database instead of JSON files
 - [ ] Use tailwindcss
 
 ## How to Contribute
